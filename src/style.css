@@ -285,3 +285,29 @@ body{
 .project-card-width{
   width:250px;
 }
+
+.material-icons{
+  display: none !important;
+}
+
+.ReactModal__Content{
+  width:50% !important;
+  position: absolute !important;
+  left:20% !important;
+  
+}
+
+canvas{
+  width:95% !important;
+}
+.is-gapless{
+  display: none !important;
+}
+/* .ReactModal__Content--after-open{
+  width:
+} */
+
+.resume:hover{
+  opacity: 0.8 !important;
+/* color:crimson !important; */
+}

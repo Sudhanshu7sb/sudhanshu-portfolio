@@ -3,7 +3,7 @@ let projectData = [
     name: "Community Forum",
     description:
       "This is a question and answer site",
-    websiteLink: "",
+    websiteLink: "https://vibrant-euclid-b87a48.netlify.app",
     githubLink: "https://github.com/Sudhanshu7sb/community-forum-frontend",
     image: "community-forum.gif",
   },
@@ -16,27 +16,6 @@ let projectData = [
     image: "producthuntclone.gif",
   },
   {
-    name: "Todo App",
-    description: "A todo list using React",
-    websiteLink: "",
-    githubLink: "https://github.com/Sudhanshu7sb/react-todo-using-state",
-    image: "React-todo-App.gif",
-  },
-  {
-    name: "Conduit API",
-    description: "Created REST API using expressjs for conduit",
-    websiteLink: "",
-    githubLink: "https://github.com/Sudhanshu7sb/conduit-api",
-    image: "",
-  },
-  {
-    name: "Github Profile Finder",
-    description: "Find details of any github user",
-    websiteLink: "",
-    githubLink: "https://github.com/Sudhanshu7sb/github-profile-finder",
-    image: "",
-  },
-  {
     name: "Frontend50",
     description:
       "The most complete frontend learning guide to front-end development!",
@@ -47,10 +26,31 @@ let projectData = [
   {
     name: "aasmaadhar.com",
     description: "A website for an Architechtural Company",
-    websiteLink: "",
-    githubLink: "",
+    websiteLink: "https://asmaadhar.com/",
+    githubLink: "https://github.com/AltCampus/asma-adhar",
     image: "",
   },
+  {
+    name: "Todo App",
+    description: "A todo list using React",
+    websiteLink: "https://distracted-wescoff-ee6645.netlify.app",
+    githubLink: "https://github.com/Sudhanshu7sb/react-todo-using-state",
+    image: "React-todo-App.gif",
+  },
+  {
+    name: "Conduit API",
+    description: "Created REST API using expressjs for conduit",
+    websiteLink: "",
+    githubLink: "https://github.com/Sudhanshu7sb/conduit-api",
+    image: "api.png",
+  },
+  {
+    name: "Github Profile Finder",
+    description: "Find details of any github user",
+    websiteLink: "https://sudhanshu7sb.github.io/github-profile-finder/",
+    githubLink: "https://github.com/Sudhanshu7sb/github-profile-finder",
+    image: "github-profile-finder.png",
+  }, 
 ];
 
 

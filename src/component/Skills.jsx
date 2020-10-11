@@ -14,9 +14,9 @@ function Skills() {
   ];
   return (
     <>
-      <section id="skills" className="hero is-small ">
+      <section id="skills" className="hero is-small my-6">
         <div className="hero-body is-half">
-          <h2 className="has-text-info is-size-3 has-text-centered py-3 has-text-weight-bold ">
+          <h2 className="has-text-info is-size-2 has-text-centered py-3">
             Skills
           </h2>
           <div className="columns is-desktop is-four-fifth">
@@ -26,7 +26,7 @@ function Skills() {
                   <div className="is-size-1 is-size-1 has-text-centered py-3 has-text-black-bis">
                     {skill.icon}
                   </div>
-                  <h1 className="py-0 has-text-black-bis is-size-5">
+                  <h1 className="py-0 has-text-black-bis is-size-5 has-text-centered">
                     {skill.name}
                   </h1>
                 </div>
