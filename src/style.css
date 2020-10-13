@@ -311,3 +311,12 @@ canvas{
   opacity: 0.8 !important;
 /* color:crimson !important; */
 }
+
+#skills{
+  border-bottom:1px solid #3298DC;
+}
+
+.resume-section{
+  border-bottom:1px solid #3298DC;
+
+}

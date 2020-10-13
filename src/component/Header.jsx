@@ -4,18 +4,18 @@ function Header() {
   return (
     <>
       <nav
-        class="navbar is-fixed-top has-background-grey-light"
+        className="navbar is-fixed-top has-background-grey-light"
         role="navigation"
         aria-label="main navigation"
       >
-        <div class="navbar-brand">
-          <a class="navbar-item mx-6" href="https://bulma.io">
+        <div className="navbar-brand">
+          <a className="navbar-item mx-6" href="https://bulma.io">
             SUDHANSHU
           </a>
 
           <a href="#home"
             role="button"
-            class="navbar-burger burger"
+            className="navbar-burger burger"
             aria-label="menu"
             aria-expanded="false"
             data-target="navbarBasicExample"
@@ -26,16 +26,16 @@ function Header() {
           </a>
         </div>
 
-        <div id="navbarBasicExample" class="navbar-menu">
+        <div id="navbarBasicExample" className="navbar-menu">
           
 
-          <div class="navbar-end">
-            <div class="navbar-item">
-              <a href="#home" class="navbar-item mx-6">Home</a>
+          <div className="navbar-end">
+            <div className="navbar-item">
+              <a href="#home" className="navbar-item mx-6">Home</a>
 
-              <a href="#skills"  class="navbar-item mx-6">Skills</a>
-              <a href="#projects" class="navbar-item mx-6">Projects</a>
-              <a href="#contact" class="navbar-item mx-6">Contact</a>
+              <a href="#skills"  className="navbar-item mx-6">Skills</a>
+              <a href="#projects" className="navbar-item mx-6">Projects</a>
+              <a href="#contact" className="navbar-item mx-6">Contact</a>
             </div>
           </div>
         </div>
