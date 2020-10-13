@@ -9,33 +9,65 @@ function Header() {
         aria-label="main navigation"
       >
         <div className="navbar-brand">
-          <a className="navbar-item mx-6" href="https://bulma.io">
+          <a className="navbar-item mx-6" href="#home">
             SUDHANSHU
           </a>
 
-          <a href="#home"
-            role="button"
-            className="navbar-burger burger"
-            aria-label="menu"
-            aria-expanded="false"
-            data-target="navbarBasicExample"
-          >
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
+          <div className="navbar-burger burger" href="##">
+            <div className="dropdown is-right is-hoverable">
+              <div className="dropdown-trigger">
+                <button
+                  className="navbar-burger burger navbar-right"
+                  aria-label="menu"
+                  aria-expanded="false"
+                  data-target="navbarBasicExample"
+                >
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                </button>
+              </div>
+              <div className="dropdown-menu" id="dropdown-menu4" role="menu">
+                <div className="dropdown-content has-background-grey-light">
+                  <div className="dropdown-item ">
+                    <a
+                      href="#home"
+                      className="navbar-item mx-6 has-background-light"
+                    >
+                      Home
+                    </a>
+                    <a href="#skills" className="navbar-item mx-6">
+                      Skills
+                    </a>
+                    <a href="#projects" className="navbar-item mx-6">
+                      Projects
+                    </a>
+                    <a href="#footer" className="navbar-item mx-6">
+                      Contact
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div id="navbarBasicExample" className="navbar-menu">
-          
-
           <div className="navbar-end">
             <div className="navbar-item">
-              <a href="#home" className="navbar-item mx-6">Home</a>
+              <a href="#home" className="navbar-item mx-6">
+                Home
+              </a>
 
-              <a href="#skills"  className="navbar-item mx-6">Skills</a>
-              <a href="#projects" className="navbar-item mx-6">Projects</a>
-              <a href="#contact" className="navbar-item mx-6">Contact</a>
+              <a href="#skills" className="navbar-item mx-6">
+                Skills
+              </a>
+              <a href="#projects" className="navbar-item mx-6">
+                Projects
+              </a>
+              <a href="#footer" className="navbar-item mx-6">
+                Contact
+              </a>
             </div>
           </div>
         </div>
