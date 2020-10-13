@@ -1,7 +1,7 @@
-import React, { useRef } from "react";
+import React from "react";
 import Modal from "react-modal";
 import PDFViewer from "pdf-viewer-reactjs";
-import ReactToPrint from "react-to-print";
+// import ReactToPrint from "react-to-print";
 
 class Resume extends React.Component {
   state = {
@@ -12,7 +12,7 @@ class Resume extends React.Component {
   render() {
     return (
       <>
-        <div className="has-text-centered resume-section pb-6">
+        <div className="has-text-centered resume-section py-6">
           <button
             onClick={() => {
               this.setState({ modalIsOpen: true });
@@ -21,6 +21,7 @@ class Resume extends React.Component {
           >
             View Resume
           </button>
+          {Modal.setAppElement('body')}
           <Modal
             isOpen={this.state.modalIsOpen}
             onRequestClose={() => {
@@ -41,7 +42,6 @@ class Resume extends React.Component {
                 url: "Sudhanshu-Shekhar-Behera-Resume.pdf",
               }}
               hideZoom={true}
-              onPrevBtnClick={false}
             />
           </Modal>
         </div>
@@ -49,19 +49,16 @@ class Resume extends React.Component {
     );
   }
 }
-
-const Example = () => {
-  const componentRef = useRef();
-
-  return (
-    <div>
-      <ReactToPrint
-        trigger={() => <button>Print this out!</button>}
-        content={() => componentRef.current}
-      />
-      <Resume ref={componentRef} />
-    </div>
-  );
-};
-
-export default Example;
+// const Example = () => {
+//   const componentRef = useRef();
+//   return (
+//     <div>
+//       <ReactToPrint
+//         trigger={() => <button>Print this out!</button>}
+//         content={() => componentRef.current}
+//       />
+//       <Resume ref={componentRef} />
+//     </div>
+//   );
+// };
+export default Resume;
