@@ -21,7 +21,7 @@ function Footer() {
               <i className="fab fa-twitter fa-lg"></i>
             </span>
           </a>
-          <a href="##" className="py-3 px-3 button is-small is-rounded  mx-2">
+          <a href="mailto: sudhanshu7sb@gmail.com" className="py-3 px-3 button is-small is-rounded  mx-2">
             <span className="icon">
             <i className="far fa-envelope"></i>
             </span>

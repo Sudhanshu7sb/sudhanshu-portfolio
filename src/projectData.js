@@ -21,14 +21,14 @@ let projectData = [
       "The most complete frontend learning guide to front-end development!",
     websiteLink: "https://chrome.google.com/webstore/detail/frontend-50/ihinimimogofhkjebjhaadnlnbpajfmi",
     githubLink: "https://github.com/Sudhanshu7sb/frontend-50",
-    image: "img.png",
+    image: "frontend50.gif",
   },
   {
     name: "aasmaadhar.com",
     description: "A website for an Architechtural Company",
     websiteLink: "https://asmaadhar.com/",
     githubLink: "https://github.com/AltCampus/asma-adhar",
-    image: "",
+    image: "aasmaadhar.png",
   },
   {
     name: "Todo App",

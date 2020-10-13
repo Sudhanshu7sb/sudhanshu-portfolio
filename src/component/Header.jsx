@@ -4,7 +4,7 @@ function Header() {
   return (
     <>
       <nav
-        className="navbar is-fixed-top has-background-grey-light"
+        className="navbar is-fixed-top has-background-grey-light" id="hero"
         role="navigation"
         aria-label="main navigation"
       >
@@ -13,7 +13,7 @@ function Header() {
             SUDHANSHU
           </a>
 
-          <div className="navbar-burger burger" href="##">
+          <div className="navbar-burger burger" href="#hero">
             <div className="dropdown is-right is-hoverable">
               <div className="dropdown-trigger">
                 <button
@@ -32,7 +32,7 @@ function Header() {
                   <div className="dropdown-item ">
                     <a
                       href="#home"
-                      className="navbar-item mx-6 has-background-light"
+                      className="navbar-item mx-6"
                     >
                       Home
                     </a>

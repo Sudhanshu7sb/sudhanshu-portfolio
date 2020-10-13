@@ -4,14 +4,14 @@ import projectData from "../projectData";
 function Projects() {
   return (
     <>
-      <div className="py-4">
+      <div className="py-4" id="projects">
         <h2 className="is-size-2 has-text-centered has-text-info">
           Projects
         </h2>
         <h6 className="has-text-centered has-text-info my-3">
           My latest works
         </h6>
-        <div id="projects" className="flex-wrap container is-half">
+        <div  className="flex-wrap container is-half">
           {projectData.map((project, i) => (
             <div key={i} className="card project-card-width my-3 mx-3">
               <div className="card-content">

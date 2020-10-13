@@ -11,7 +11,7 @@ function Hero() {
               Fullstack Developer | MERN Stack Developer | Web Developer
             </h2>
             <p>
-              <a href="https://github.com/Sudhanshu7sb" className="py-3 px-3 button is-small is-rounded mx-3">
+              <a href="mailto: sudhanshu7sb@gmail.com" className="py-3 px-3 button is-small is-rounded mx-3">
                 <span className="icon">
                 <i className="far fa-envelope"></i>
                 </span>
